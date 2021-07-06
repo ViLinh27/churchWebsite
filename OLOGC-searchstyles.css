@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.searchcontainer{
+    position: relative;
+    padding: 15px 15px;
+    float: right;
+}
+
+.searchwrapper{
+    float: right;;
+}
+
+.input{
+    border: 3px soid #fff;
+    background: transparent;
+    padding: 15px 30px;
+    border-radius: 50px;
+    color: #fff;
+    font-size: 18px;
+    outline: none;
+    float: left;
+    
+}
+
+::-webkit-input-placeholder{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+::-moz-input-placeholder{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+::-ms-input-placeholder{
+    color: #fff;
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+}
+
+.close_btn{
+    float: left;
+    top: 21px;
+    right: 100px;
+    cursor: pointer;
+    width: 120px;
+    height: 55px;
+    border: 0;
+    border-radius: 50px;
+    outline: none;
+    text-transform: uppercase;
+}
